@@ -40,7 +40,7 @@ HABench is a benchmark tool designed to systematically leverage MLLMs across all
    - [Installation Requirements](#installation-requirements)
    - [Pip Installation](#pip-installation)
    - [Download From Huggingface](#download-from-huggingface)
-- [Praparation](#praparation)
+- [Preparation](#preparation)
 - [Instruction](#instruction)
 - [Usage](#usage)
    - [Standard Mode](#standard-mode)
