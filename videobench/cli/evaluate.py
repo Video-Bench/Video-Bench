@@ -9,7 +9,7 @@ from videobench import VideoBench
 def parse_args():
     CUR_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     parser = argparse.ArgumentParser(
-        description='HABench - Human Preference Aligned Video Generation Benchmark'
+        description='Video-Bench - Human Preference Aligned Video Generation Benchmark'
     )
     
     parser.add_argument(
@@ -59,7 +59,7 @@ def parse_args():
     parser.add_argument(
         "--full_json_dir",
         type=str,
-        default=os.path.join(CUR_DIR, "HAbench", "HABench_full.json"),
+        default=os.path.join(CUR_DIR, "videobench", "VideoBench_full.json"),
         help="path to save the json file that contains the prompt and dimension information"
     )
 

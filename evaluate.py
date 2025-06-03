@@ -6,7 +6,7 @@ import json
 
 def parse_args():
     CUR_DIR = os.path.dirname(os.path.abspath(__file__))
-    parser = argparse.ArgumentParser(description='HABench', formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(description='VideoBench', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument(
         "--output_path",
         type=str,
@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument(
         "--full_json_dir",
         type=str,
-        default=os.path.join(CUR_DIR, "HAbench", "HABench_full.json"),
+        default=os.path.join(CUR_DIR, "videobench", "VideoBench_full.json"),
         help="path to save the json file that contains the prompt and dimension information",
     )
     parser.add_argument(

@@ -16,7 +16,7 @@ def fetch_requirements():
 
 install_requires = fetch_requirements()
 setup(name='videobench',
-      version='0.1.0',
+      version='0.1.2',
       description='Human Preference Aligned Video Generation Benchmark',
       long_description=fetch_readme(),
       long_description_content_type='text/markdown',
