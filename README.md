@@ -109,7 +109,7 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 
 - Install with pip
    ````bash
-   pip install VideoBench
+   pip install videobench
    ````
 
 - Install with git clone
@@ -230,7 +230,7 @@ python evaluate.py \
 ```
 or
 ```bash
-VideoBench \
+videobench \
  --dimension $DIMENSION \
  --videos_path ./data/ \
  --config_path ./config.json \
@@ -262,7 +262,7 @@ python evaluate.py \
 ```
 or
 ```bash
-VideoBench \
+videobench \
  --dimension $DIMENSION \
  --videos_path ./data/ \
  --mode custom_nonstatic \
@@ -281,7 +281,7 @@ python evaluate.py \
 ```
 or
 ```bash
-VideoBench \
+videobench \
  --dimension $DIMENSION \
  --videos_path ./data/ \
  --mode custom_static \

@@ -15,8 +15,8 @@ def fetch_requirements():
     return envs
 
 install_requires = fetch_requirements()
-setup(name='VideoBench',
-      version='0.1.1',
+setup(name='videobench',
+      version='0.1.0',
       description='Human Preference Aligned Video Generation Benchmark',
       long_description=fetch_readme(),
       long_description_content_type='text/markdown',
@@ -24,11 +24,11 @@ setup(name='VideoBench',
           'Source': 'https://github.com/Video-Bench/Video-Bench',
       },
       entry_points={
-          'console_scripts': ['VideoBench=videobench.cli.evaluate:main']
+          'console_scripts': ['videobench=videobench.cli.evaluate:main']
       },
       install_requires=install_requires,
       packages=find_packages(),
       include_package_data=True,
-      license='Apache Software License 2.0',
+      license='Apache-2.0',
       python_requires='>=3.8',
 )
