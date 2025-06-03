@@ -1,5 +1,5 @@
 import os
-from HAbench import HABench
+from videobench import VideoBench
 from datetime import datetime
 import argparse
 import json
@@ -82,7 +82,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    HAVBench = HABench(args.full_json_dir, args.output_path, args.config_path)
+    bench_runner = VideoBench(args.full_json_dir, args.output_path, args.config_path)
     os.makedirs(args.log_path, exist_ok=True)
 
     # 处理提示词
@@ -98,7 +98,7 @@ def main():
         prompt_list = args.prompt
   
     dimension_str = args.dimension[0]
-    HAVBench.evaluate(
+    bench_runner.evaluate(
         videos_path=args.videos_path,
         name=f'results_{dimension_str}',
         dimension_list=args.dimension,

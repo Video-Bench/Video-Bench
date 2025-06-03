@@ -4,7 +4,7 @@ from pathlib import Path
 from itertools import chain
 from .utils import save_json, load_json, get_prompt_from_filename
 
-class HABench(object):
+class VideoBench(object):
     def __init__(self, full_info_dir, output_path, config_path):
         """
         Initialize VBench evaluator
