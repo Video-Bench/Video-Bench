@@ -51,9 +51,11 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 
 # Overview
 
-[![Watch the video](https://img.youtube.com/vi/BMvgyWbWPFg/hqdefault.jpg)](https://www.youtube.com/watch?v=BMvgyWbWPFg)
+
 
 <div align=center><img src="https://github.com/Video-Bench/Video-Bench/blob/main/figures/videobench.png"/></div>
+
+<div align=center><img src="https://github.com/Video-Bench/Video-Bench/blob/main/figures/youtube.png" href="https://www.youtube.com/watch?v=BMvgyWbWPFg"/></div>
 
 # Leaderboard
 
