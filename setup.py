@@ -15,7 +15,7 @@ def fetch_requirements():
     return envs
 
 install_requires = fetch_requirements()
-setup(name='HAbench',
+setup(name='VideoBench',
       version='0.1.0',
       description='Human Preference Aligned Video Generation Benchmark',
       long_description=fetch_readme(),
@@ -24,7 +24,7 @@ setup(name='HAbench',
           'Source': 'https://github.com/Video-Bench/Video-Bench',
       },
       entry_points={
-          'console_scripts': ['HAbench=HAbench.cli.evaluate:main']
+          'console_scripts': ['VideoBench=videobench.cli.evaluate:main']
       },
       install_requires=install_requires,
       packages=find_packages(),

@@ -1,0 +1,2 @@
+[console_scripts]
+VideoBench = videobench.cli.evaluate:main

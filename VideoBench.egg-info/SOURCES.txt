@@ -1,0 +1,16 @@
+README.md
+setup.py
+VideoBench.egg-info/PKG-INFO
+VideoBench.egg-info/SOURCES.txt
+VideoBench.egg-info/dependency_links.txt
+VideoBench.egg-info/entry_points.txt
+VideoBench.egg-info/requires.txt
+VideoBench.egg-info/top_level.txt
+videobench/VideoTextAlignment.py
+videobench/__init__.py
+videobench/dynamicquality.py
+videobench/dynamicquality_gridview_customized.py
+videobench/prompt_dict.py
+videobench/staticquality.py
+videobench/staticquality_customized.py
+videobench/utils.py
