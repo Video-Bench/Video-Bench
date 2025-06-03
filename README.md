@@ -7,7 +7,7 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 <a href="https://videobench.github.io/VideoBench-project/" alt="demo"><img src="https://img.shields.io/badge/Demo-VideoBench-orange" /></a> 
 <a href="https://mp.weixin.qq.com/s/CtbyZhg4HvYnPocBLfnTrw" alt="blog"><img src="https://img.shields.io/badge/Blog-SharingPlatform-green" /></a> 
 <a href="https://zhuanlan.zhihu.com/p/xxx" alt="zhihu"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a> 
-<a href="https://www.youtube.com/watch?v=xxx" alt="video"><img src="https://img.shields.io/badge/Video-YouTube-purple" /></a>
+<a href="https://www.youtube.com/watch?v=BMvgyWbWPFg&ab_channel=Video-Bench" alt="video"><img src="https://img.shields.io/badge/Video-YouTube-purple" /></a>
 <a href="https://xxx" alt="twitter"><img src="https://img.shields.io/badge/Post-Twitter-1DA1F2" /></a>
 
  
