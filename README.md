@@ -126,11 +126,7 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 ## Download From Huggingface
 
    ````bash
-   wget https://huggingface.co/Video-Bench/Video-Bench 
-   ````
-   or
-   ````bash
-   curl -L https://huggingface.co/Video-Bench/Video-Bench 
+   git clone https://huggingface.co/Video-Bench/Video-Bench 
    ````
 
 # Preparation
