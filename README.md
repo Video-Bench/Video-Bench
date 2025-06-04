@@ -251,7 +251,7 @@ videobench \
  --dimension 'color' \
  --videos_path ./data/ \
  --config_path ./config.json \
- --models kling videocrafter2 Gen3
+ --models kling videocrafter2 gen3
 ```
 
 
