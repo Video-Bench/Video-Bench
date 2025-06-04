@@ -95,7 +95,8 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 # Installation
 
 ## Installation Requirements
-- Python >= 3.8
+- Python 3.10.14 (strongly recommended)
+  This project is tested and verified to work with Python 3.10.14. Other versions may lead to compatibility issues.
 - OpenAI API access
    Update your OpenAI API keys in `config.json`:
    ````json

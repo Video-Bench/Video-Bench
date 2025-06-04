@@ -28,6 +28,5 @@ setup(name='videobench',
       },
       install_requires=install_requires,
       packages=find_packages(),
-      include_package_data=True,
-      python_requires='>=3.8',
+      include_package_data=True
 )
