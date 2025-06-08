@@ -6,9 +6,9 @@ Video-Bench is a benchmark tool designed to systematically leverage MLLMs across
 <a href="https://arxiv.org/pdf/2504.04907" alt="paper"><img src="https://img.shields.io/badge/ArXiv-2504.04907-FAA41F.svg?style=flat" /></a>
 <a href="https://video-bench.github.io/" alt="demo"><img src="https://img.shields.io/badge/Demo-VideoBench-orange" /></a> 
 <a href="https://mp.weixin.qq.com/s/CtbyZhg4HvYnPocBLfnTrw" alt="blog"><img src="https://img.shields.io/badge/Blog-SharingPlatform-green" /></a> 
-<a href="https://zhuanlan.zhihu.com/p/xxx" alt="zhihu"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a> 
+<a href="https://zhuanlan.zhihu.com/p/1915205612498847154" alt="zhihu"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a> 
 <a href="https://www.youtube.com/watch?v=BMvgyWbWPFg&ab_channel=Video-Bench" alt="video"><img src="https://img.shields.io/badge/Video-YouTube-purple" /></a>
-<a href="https://xxx" alt="twitter"><img src="https://img.shields.io/badge/Post-Twitter-1DA1F2" /></a>
+<a href="https://X.com" alt="twitter"><img src="https://img.shields.io/badge/Post-Twitter-1DA1F2" /></a>
 
  
 ![Multi-Modal](https://img.shields.io/badge/Task-Vision--Perception-red) 
