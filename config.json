@@ -1,4 +1,4 @@
-    {
+{
     "GPT4o_API_KEY" : "",     
     "GPT4o_BASE_URL" : "",      
     "GPT4o_mini_API_KEY" : "",               
@@ -12,4 +12,4 @@
     "log_path_aesthetic_quality": "./logs/aesthetic_quality.log",
     "log_path_temporal_consistency": "./logs/temporal_consistency.log",
     "log_path_motion_effects": "./logs/motion_effects.log"
-}
+} 
