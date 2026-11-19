@@ -19,6 +19,8 @@ class Video_Dataset:
 
     def extract_frames(self, video_path, extract_frames_persecond, resize_fx, resize_fy):
         """Extract frames from a video file"""
+        if extract_frames_persecond <= 0:
+            raise ValueError("extract_frames_persecond must be positive")
         frames = []
         video = cv2.VideoCapture(video_path)
         
@@ -28,7 +30,7 @@ class Video_Dataset:
 
         total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
         fps = video.get(cv2.CAP_PROP_FPS)
-        frames_to_skip = int(fps / extract_frames_persecond)
+        frames_to_skip = max(1, int(fps / extract_frames_persecond))
 
         curr_frame = 1
         end_frame = total_frames - 1
@@ -68,6 +70,8 @@ class Video_Dataset:
         return base64Frames
 
     def process_video2gridview(self, videos_dict, extract_frames_persecond=8):
+        if extract_frames_persecond <= 0:
+            raise ValueError("extract_frames_persecond must be positive")
         """Process videos for grid view"""
         # 只为videos_dict中存在的模型创建条目
         base64Frames = {model: [] for model in videos_dict.keys()}
@@ -82,7 +86,7 @@ class Video_Dataset:
 
             total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
             fps = video.get(cv2.CAP_PROP_FPS)
-            frames_to_skip = int(fps / extract_frames_persecond)
+            frames_to_skip = max(1, int(fps / extract_frames_persecond))
             curr_frame = 0
 
             while curr_frame < total_frames:
